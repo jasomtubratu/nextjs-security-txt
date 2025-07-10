@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-security-txt",
+  "name": "@tentomasne/nextjs-security-txt",
   "version": "1.0.0",
   "description": "Add security.txt support to Next.js applications following RFC 9116",
   "main": "index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasomtubratu/nextjs-security-txt.git"
+    "url": "git+https://github.com/jasomtubratu/nextjs-security-txt.git"
   },
   "bugs": {
     "url": "https://github.com/jasomtubratu/nextjs-security-txt/issues"
@@ -34,5 +34,34 @@
     "index.js",
     "types/",
     "README.md"
-  ]
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "caniuse-lite": "^1.0.30001727",
+    "client-only": "^0.0.1",
+    "color": "^4.2.3",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "color-string": "^1.9.1",
+    "detect-libc": "^2.0.4",
+    "is-arrayish": "^0.3.2",
+    "nanoid": "^3.3.11",
+    "next": "^15.3.5",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.4.31",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "scheduler": "^0.26.0",
+    "semver": "^7.7.2",
+    "sharp": "^0.34.3",
+    "simple-swizzle": "^0.2.2",
+    "source-map-js": "^1.2.1",
+    "streamsearch": "^1.1.0",
+    "styled-jsx": "^5.1.6",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {}
 }
