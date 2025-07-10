@@ -11,7 +11,8 @@ const securityTxtConfig = {
   preferredLanguages: ['en', 'es'],
   canonical: 'https://example.com/.well-known/security.txt',
   policy: 'https://example.com/responsible-disclosure',
-  hiring: 'https://example.com/careers/security'
+  hiring: 'https://example.com/careers/security',
+  disableRootSecurityTxt: false
 };
 
 module.exports = withSecurityTxt(securityTxtConfig)({

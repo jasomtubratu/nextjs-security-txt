@@ -90,11 +90,16 @@ function createSecurityTxtFiles(config) {
   }
   
   fs.writeFileSync(path.join(wellKnownDir, 'security.txt'), content);
-  fs.writeFileSync(path.join(publicDir, 'security.txt'), content);
+  
+  if (!config.disableRootSecurityTxt) {
+    fs.writeFileSync(path.join(publicDir, 'security.txt'), content);
+  }
   
   console.log('✅ Security.txt files created successfully!');
   console.log('   - /.well-known/security.txt');
-  console.log('   - /security.txt');
+  if (!config.disableRootSecurityTxt) {
+    console.log('   - /security.txt');
+  }
 }
 
 /**
