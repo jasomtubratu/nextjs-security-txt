@@ -1,2 +1,0 @@
-# nextjs-security-txt
-

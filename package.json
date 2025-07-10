@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-security-txt",
+  "version": "1.0.0",
+  "description": "Add security.txt support to Next.js applications following RFC 9116",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build",
+    "build": "echo \"Build completed\""
+  },
+  "keywords": [
+    "nextjs",
+    "security",
+    "security.txt",
+    "rfc9116",
+    "vulnerability",
+    "disclosure"
+  ],
+  "author": "TenTomasNe",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasomtubratu/nextjs-security-txt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasomtubratu/nextjs-security-txt/issues"
+  },
+  "homepage": "https://github.com/jasomtubratu  /nextjs-security-txt#readme",
+  "files": [
+    "index.js",
+    "types/",
+    "README.md"
+  ]
+}
